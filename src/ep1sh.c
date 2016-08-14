@@ -69,7 +69,7 @@ int main(void) {
 		free(cwd);
 		cwd = getcwd(NULL, CWD_BUFFER);
 		
-		snprintf(prompt, CWD_BUFFER, "[%s] ", cwd);
+		snprintf(prompt, CWD_BUFFER, "(%s): ", cwd);
 		command_destroy(command);
 
 	}
