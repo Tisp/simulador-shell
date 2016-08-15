@@ -43,7 +43,7 @@ int main(void) {
 			 else 
 				printf("chmod uiltiliza dois parametros: chmod <modo numero> <arquivo> \n");
 		
-		//Chamda de sistema para retornar o id do usuario 
+		/* Chamda de sistema para retornar o id do usuario */ 
 		} else if(strcmp(command->argv[0], "id") == 0 && strcmp(command->argv[1], "-u") == 0) {
 			printf("%d\n", getuid());
 		} else {

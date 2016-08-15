@@ -2,7 +2,7 @@ BIN_EP1SH = ep1sh
 SRCS_EP1SH = $(wildcard src/ep1sh/*.c) $(wildcard src/*.c)
 
 INCS = -Isrc/
-LIBS = -lpthread -lreadline
+LIBS = -lreadline
 
 CFLAGS = $(INCS) -c -g -Wall -pedantic
 LDFLAGS = $(LIBS)
