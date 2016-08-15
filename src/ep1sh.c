@@ -4,10 +4,9 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 #include <readline/readline.h>
 #include <readline/history.h>
-#include <errno.h>
+
 
 #include "command.h"
 
