@@ -1,4 +1,4 @@
-# ep1sh
+# Simulador shell
 
 > Trabalho realizado para matéria MAC0422 - Sistemas Operacionais, IME USP
 
